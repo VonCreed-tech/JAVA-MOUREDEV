@@ -1,24 +1,36 @@
+package FirstSteps;
 // 1. Imprime un mensaje que diga tu nombre en lugar de "¡Hola
 // Mundo!". DONE 
+
 // 2. Imprime dos líneas: "Hola" y luego "Mundo" con un solo
 // println. DONE
+
 // 3. Añade un comentario sobre lo que hace cada línea del
 // programa. DONE
+
 // 4. Crea un comentario en varias líneas. DONE
-// 5. Imprime tu edad, tu color favorito y tu ciudad.
+
+// 5. Imprime tu edad, tu color favorito y tu ciudad. DONE 
+
 // 6. Explora los diferentes System.XXX.println(); más allá de
-// "out".
-// 7. Utiliza varios println para imprimir una frase.
-// 8. Imprime un diseño ASCII (por ejemplo, una cara feliz usando
-// símbolos).
+// "out". DONE 
+
+// 7. Utiliza varios println para imprimir una frase. DONE
+
+// // 8. Imprime un diseño ASCII (por ejemplo, una cara feliz usando
+// símbolos).DONE
+
 // 9. Intenta ejecutar el programa sin el método main y observa el
-// error.
+// error. DONE
+
 // 10.
 // Intenta cambiar el nombre del archivo a uno diferente
-// del de la clase y compílalo. ¿Qué pasa?
+// del de la clase y compílalo. ¿Qué pasa? DONE
+
+//It ask to you to change the class inside the code.
 
 //declaring a class
-public class FirstSteps {
+public class FirstStepsInJava {
     //declaring the main function
     public static void main(String[] args){
         //printing an standard output
@@ -80,6 +92,25 @@ public class FirstSteps {
 
         // Standard error output stream (usually the console)
         // err
+
+
+        System.out.print("Using varios prints ");
+        System.out.print("to print a phrase, ");
+        System.out.println("done.");
+
+
+        //ASCII HAPPY FACE
+        System.out.println("||         ||");
+        System.out.println("||         ||");
+        System.out.println("||         ||");
+        System.out.println("             ");
+        System.out.println("||         ||");
+        System.out.println(" |         |");
+        System.out.println("  |       |");
+        System.out.println("   | ____|");
+
+        
+        
 
         //	Terminates the running Java program. A nonzero status indicates abnormal termination
         System.exit(0);
