@@ -1,6 +1,5 @@
 package DataStructures;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -95,7 +94,7 @@ public class StructureExercises {
         String[] myName = {"Ignacio"};
 
         new ArrayList<>(Arrays.asList(myName));
-        
+
 
 
 
