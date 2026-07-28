@@ -55,8 +55,9 @@ public class LoopExercises {
         }while(counter2 < cars.size());
 
         System.out.println("___________________________");
+        int digit = 1;
         //exercise 3
-        for (int multiplesOf5 = 1,  digit = 1 , five = 5;  multiplesOf5 <= 50; digit++){
+        for (int multiplesOf5 = 1, five = 5;  multiplesOf5 <= 50; digit++){
             System.out.println(multiplesOf5);
             multiplesOf5 = digit * five;
 
@@ -64,13 +65,14 @@ public class LoopExercises {
 
         System.out.println("___________________________");
         //exercise 4
-        int[] numbersList = {1, 2, 3, 4};
-        int sum = 0;
+        int[] numbersToSum = {1, 2, 3, 4};
+        int result = 0;
+        
 
-        for (int i = 0; i < numbersList.length; i++){
-            sum += numbersList[i];
+        for (int i = 0; i < numbersToSum.length; i++){
+            result += numbersToSum[i];
         }
-        System.out.println(sum);
+        System.out.println(result);
             
 
         System.out.println("___________________________");
