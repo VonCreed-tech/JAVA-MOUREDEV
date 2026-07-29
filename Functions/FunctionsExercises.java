@@ -1,6 +1,8 @@
 package Functions;
 
 import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.List;
 
 /*1. Crea una función que imprima "¡Te doy la bienvenida al curso 
 de Java desde cero!". 
@@ -53,7 +55,9 @@ public class FunctionsExercises {
         System.out.println(getAverageOfSum(intNumbers));
         System.out.println("---------------");
         System.out.println(getFactorialOfNumber(5));
-
+        System.out.println("---------------");
+        ArrayList<String> names = new ArrayList<>(List.of("Ignacio", "Andres","Madriaga"));
+        getArrayList(names);
 
 
 
@@ -119,19 +123,25 @@ public class FunctionsExercises {
 
     //exercise 9
     public static int getFactorialOfNumber(int number){
-    int factorial = 1;
-    for (int counter = 0; counter < number; counter++){
-    factorial *= counter;
+        int factorial = number;
+        for (int counter = number-1 ; counter > 0; --counter){
+            factorial *= counter;
+            
+        }
+        // System.out.print("El factorial es " + factorial);
+        return factorial;
+    }
+
+    //exercise 10
+    public static ArrayList<String> getArrayList(ArrayList<String> arrayList){
+        for(String element : arrayList ){
+            System.out.println(element);
+        }
+        return arrayList;
         
-    } return factorial;
-
     }
+}
 
-
-
-
-
-    }
 
 
     
