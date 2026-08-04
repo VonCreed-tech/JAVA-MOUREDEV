@@ -1,5 +1,7 @@
 package Inheritance;
 
+import AccesModificators.classes;
+
 public class InheritanceExercises {
 
     public static void main(String[] args) {
@@ -16,6 +18,16 @@ public class InheritanceExercises {
         bigCat.makeSound();
         Dog bigDog= new Dog();
         bigDog.makeSound();       
+
+        //Exercise 4
+        Manager hotelManager = new Manager("Ignacio", 200000, "A");
+        System.out.println(hotelManager);
+
+        //Exercise 5
+        Circle redCircle = new Circle(2);
+        redCircle.calculateArea();
+
+        Rectangle redRectangle = new Rectangle(2, 4);
+        redRectangle.calculateArea();
     }
-    
 }
