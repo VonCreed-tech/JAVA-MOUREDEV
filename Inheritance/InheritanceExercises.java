@@ -29,5 +29,9 @@ public class InheritanceExercises {
 
         Rectangle redRectangle = new Rectangle(2, 4);
         redRectangle.calculateArea();
+
+        //Exercise 6
+        Eagle rioBird = new Eagle();
+        rioBird.fly();
     }
 }
